@@ -1,0 +1,8 @@
+*.pid
+*.pyc
+*.swp
+*.mp4
+*.wav
+*.tgz
+*.gz
+output/
