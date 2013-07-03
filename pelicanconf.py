@@ -62,7 +62,7 @@ TRANSLATION_FEED_ATOM = None
 #SOCIAL = (('You can add links in your config file', '#'),
 #          ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 1
+DEFAULT_PAGINATION = 5
 
 LOCALE = 'en_US'
 
@@ -84,7 +84,7 @@ STATIC_PATHS = ["blog/img", "blog/data", "blog/videos", "pages/home", "pages/out
 
 # Plugins
 PLUGIN_PATH = 'pelican-plugins/'
-PLUGINS = ['latex', 'neighbors']
+PLUGINS = ['latex', 'neighbors', 'summary']
 
 # Only use LaTeX for selected articles
 

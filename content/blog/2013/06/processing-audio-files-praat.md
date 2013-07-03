@@ -4,12 +4,13 @@ Category: Tutorials
 Tags: ldc-kiy, fieldwork, coding, shell, praat, audio
 Slug: processing-audio-files-praat
 Author: Kristine Yu
-Summary: Tutorial for LDC paper: notes on processing audio files in Praat
 
 This tutorial introduces how to process audio files from fieldwork
 recordings with [Praat](http://www.praat.org). See the tutorial
 [Processing audio (with SoX)](../processing-audio-files-sox) for
 the sister tutorial using [SoX](http://sox.sourceforge.net) command line utilities.
+
+<!-- PELICAN_END_SUMMARY -->
 
 Following an <a href = "#intro">introductory section</a>, the tutorial shows how to use <a href =
 "http://www.praat.org/">Praat</a> 

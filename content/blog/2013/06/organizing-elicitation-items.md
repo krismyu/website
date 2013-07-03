@@ -5,7 +5,6 @@ Category: Tutorials
 Tags: ldc-kiy, fieldwork
 Slug: organizing-elicitation-items
 Author: Kristine Yu
-Summary: Tutorial for LDC paper: organizing elicitation items
 
 In this tutorial, we cover strategies for organizing data within an
 elicitation session as well as across elicitation sessions, including:
@@ -14,6 +13,8 @@ elicitation session as well as across elicitation sessions, including:
 2. [Working with spreadsheets](#spreadsheet)
 2. [Working with text files in the shell](#text)
 3. [Organizing files](#files)
+
+<!-- PELICAN_END_SUMMARY -->
 
 The section [Working with text files in the shell](#text) can be
 skipped for users that want to stick with working with spreadsheets

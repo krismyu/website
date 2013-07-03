@@ -300,7 +300,7 @@ alt = "The LongSound: To Text Grid...dialog box" width = "450"><br>
 <p align = "center">
 <video controls>
   <source src="/static/blog/videos/2013/06/marking-timepoints.mp4" type="video/mp4">
-  <source src="/static/blog/videos/2013/06/marking-timepoints.ogg" type="video/ogg">
+  <source src="/static/blog/videos/2013/06/marking-timepoints.ogv" type="video/ogg">
   Your browser does not support the video tag.
 </video>
 Screencast: Marking interval boundary timepoints in the TextGrid.
