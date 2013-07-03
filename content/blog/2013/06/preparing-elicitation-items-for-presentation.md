@@ -224,7 +224,7 @@ steps are also outlined below in the tutorial body.
 <p align = "center">
 <video controls>
   <source src="/static/blog/videos/2013/06/20111215-2-kiy-ap-framedwordlist-slides.mp4" type="video/mp4">
-  <source src="/static/blog/videos/2013/06/20111215-2-kiy-ap-framedwordlist-slides.ogg" type="video/ogg">
+  <source src="/static/blog/videos/2013/06/20111215-2-kiy-ap-framedwordlist-slides.ogv" type="video/ogg">
   Your browser does not support the video tag.
 </video>
 Screencast:creating slides for presentation of elicitation items to consultant.

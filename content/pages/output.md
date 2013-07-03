@@ -8,7 +8,7 @@ Summary:
 
 1. The experimental state of mind in elicitation: illustrations from
    tonal fieldwork. (Submitted)
-   \[[pdf](https://github.com/krismyu/ldc-kiy/paper/kiy.pdf)\]
+   \[[pdf](output/kiy.pdf), [github](https://github.com/krismyu/ldc-kiy/blob/master/paper/kiy.pdf)\]
 2. Temporal resolution in Cantonese tone perception. (Submitted) \[[pdf](https://github.com/krismyu/res/paper/res-spcom.pdf)\]   
 
 ## Papers ##

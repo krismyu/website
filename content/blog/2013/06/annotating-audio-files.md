@@ -332,7 +332,7 @@ The screencast includes:
 <p align = "center">
 <video controls>
   <source src="/static/blog/videos/2013/06/annotating-timepoints.mp4" type="video/mp4">
-  <source src="/static/blog/videos/2013/06/annotating-timepoints.ogg" type="video/ogg">
+  <source src="/static/blog/videos/2013/06/annotating-timepoints.ogv" type="video/ogg">
   Your browser does not support the video tag.
 </video>
 Screencast: Annotating interval boundary timepoints in the TextGrid.
@@ -513,7 +513,7 @@ with the `numeric-labels.txt` file. The files used are in `tutorials/annotating-
 <p align = "center">
 <video controls>
   <source src="/static/blog/videos/2013/06/praat-scripting.mp4" type="video/mp4">
-  <source src="/static/blog/videos/2013/06/praat-scripting.ogg" type="video/ogg">
+  <source src="/static/blog/videos/2013/06/praat-scripting.ogv" type="video/ogg">
   Your browser does not support the video tag.
 </video>
 Screencast: Semi-automatic annotation of interval labels in the
