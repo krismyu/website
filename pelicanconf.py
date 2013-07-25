@@ -19,17 +19,17 @@ ARTICLE_URL = "blog/posts/{date:%Y}/{date:%m}/{slug}/"
 ARTICLE_SAVE_AS = "blog/posts/{date:%Y}/{date:%m}/{slug}/index.html"
 YEAR_ARCHIVE_SAVE_AS = 'blog/posts/{date:%Y}/index.html'
 
-PAGE_URL = "pages/{slug}.html"
-PAGE_SAVE_AS = "pages/{slug}.html"
+PAGE_URL = "{slug}/"
+PAGE_SAVE_AS = "{slug}/index.html"
 
 ARCHIVES_SAVE_AS = "archives.html"
 
 # display items
 #LOGO_URL = 'https://dl.dropboxusercontent.com/u/7030113/www/art-noveau-ornament.png'
-MENUITEMS = [('output', '/pages/output.html'),             
-             ('teaching', '/pages/teaching.html'),
-             ('resources', '/pages/resources.html'),
-             ('vita', '/pages/vita.html'),
+MENUITEMS = [('output', '/output'),             
+             ('teaching', '/teaching'),
+             ('resources', '/resources'),
+             ('vita', '/vita'),
              ('blog', '/'),
              ('archives', '/archives.html')]
 DISPLAY_PAGES_ON_MENU = False
@@ -42,6 +42,8 @@ GITHUB_REPO_COUNT = 3
 GITHUB_SKIP_FORK = True
 GITHUB_SHOW_USER_LINK = True
 
+# Search box
+SEARCH_BOX = True
 
 FOOTER_MESSAGE = u'This work is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">CC BY-SA</a>.'
 TWITTER_USERNAME = u'kfr_2'
@@ -67,23 +69,16 @@ DEFAULT_PAGINATION = 5
 LOCALE = 'en_US'
 
 # Set theme
-THEME = 'themes/pelican-octopress-theme'
-
-
-
+THEME = '../themes/pelican-octopress-theme'
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-
-
-
-
 # Set static paths
-STATIC_PATHS = ["blog/img", "blog/data", "blog/videos", "pages/home", "pages/output", "pages/resources", "pages/teaching", "pages/vita"]
+STATIC_PATHS = ["blog/img", "blog/data", "blog/videos", "pages/home", "pages/output", "pages/resources", "pages/teaching", "pages/vita", "pages/masspros"]
 
 # Plugins
-PLUGIN_PATH = 'pelican-plugins/'
+PLUGIN_PATH = '../pelican-plugins/'
 PLUGINS = ['latex', 'neighbors', 'summary']
 
 # Only use LaTeX for selected articles
