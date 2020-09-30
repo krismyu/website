@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 ##
-# This section should match your Makefile
+# This the section should be matching with your Makefile
 ##
 PY=python
 PELICAN=pelican
