@@ -7,8 +7,9 @@ SITESUBTITLE = u'Linguist at UMass Amherst'
 SITENAME = u'Kristine M. Yu'
 SITEURL = ''
 
+#Setting and showing the date and timezone in regular form
 
-DEFAULT_DATE_FORMAT = '%Y %B %d'
+DEFAULT_DATE_FORMAT = '%d %B %Y'
 TIMEZONE = 'America/New_York'
 DEFAULT_LANG = u'en'
 
