@@ -18,7 +18,8 @@ CONFFILE=$BASEDIR/pelicanconf.py
 SRV_PID=$BASEDIR/srv.pid
 PELICAN_PID=$BASEDIR/pelican.pid
 
-function usage(){
+function usage()
+{
   echo "usage: $0 (stop) (start) (restart)"
   echo "This starts pelican in debug and reload mode and then launches"
   echo "A pelican.server to help site development. It doesn't read"
@@ -27,11 +28,13 @@ function usage(){
   exit 3
 }
 
-function alive() {
+function alive() 
+{
   kill -0 $1 >/dev/null 2>&1
 }
 
-function shut_down(){
+function shut_down()
+{
   PID=$(cat $SRV_PID)
   if [[ $? -eq 0 ]]; then
     if alive $PID; then
@@ -59,7 +62,8 @@ function shut_down(){
   fi
 }
 
-function start_up(){
+function start_up()
+{
   echo "Starting up Pelican and pelican.server"
   shift
   $PELICAN --debug --autoreload -r $INPUTDIR -o $OUTPUTDIR -s $CONFFILE $PELICANOPTS &
