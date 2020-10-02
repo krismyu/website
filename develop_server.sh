@@ -5,7 +5,7 @@
 PY=python
 PELICAN=pelican
 PELICANOPTS=
-
+# This section is your maakefile
 BASEDIR=$(pwd)
 INPUTDIR=$BASEDIR/content
 OUTPUTDIR=$BASEDIR/output
