@@ -11,8 +11,9 @@ Summary:
     + Tone and intonation
     + Prosodic interfaces
 	+ Phonetics and phonology
-	+ Language learning and variation
+	+ Language learning with all variation
 	+ Human language processing
+	+ & lots more....
 
 <p></p>
 
